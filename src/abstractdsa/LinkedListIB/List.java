@@ -24,13 +24,10 @@ public class List
     
     public boolean isEmpty()
     {
-        if (firstNode == null && lastNode == null)
-            return true;
-        else
-            return false;
+        return (firstNode == null && lastNode == null);
     }
     
-    public void addToFront(int data) // for any functions you should check if the linkedlist is empty
+    public void addToHead(int data) // for any functions you should check if the linkedlist is empty
     {
         Node temp = new Node(data); //when adding the first Node to the list, the firstNode and the lastNode should point at the same Node
         
@@ -63,7 +60,7 @@ public class List
         }
     }
     
-    public void addToBack(int data)
+    public void addToTail(int data)
     {
         Node temp = new Node(data);
         if (isEmpty())
@@ -111,7 +108,7 @@ public class List
             return data;
         }
     }
-    public int removeFromBack()
+    public int removeFromTail()
     {
         if (isEmpty())
         {

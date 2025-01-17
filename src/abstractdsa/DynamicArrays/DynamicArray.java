@@ -1,4 +1,4 @@
-package abstractdsa.DybamicArrays;
+package abstractdsa.DynamicArrays;
 
 public class DynamicArray {
     // Implementation of Dynamic Array in Java is called ArrayList

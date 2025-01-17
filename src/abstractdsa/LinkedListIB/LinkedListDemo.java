@@ -13,30 +13,7 @@ public class LinkedListDemo {
     {
         List myList = new List();
         // add to front
-        myList.addToFront(5);
-        myList.printlist();
-        myList.addToFront(10);
-        myList.printlist();
-        myList.addToFront(3);
-        myList.printlist();
-        myList.addToFront(1);
-        myList.printlist();
-        myList.addToFront(13);
-        myList.printlist();
-        
-        myList.addToBack(0);
-        myList.printlist();
-        myList.removeFromBack();
-        myList.printlist();
-        myList.removeFromBack();
-        myList.printlist();
-        myList.removeFromBack();
-        myList.printlist();
-        myList.removeFromBack();
-        myList.printlist();
-        myList.removeFromBack();
-        myList.printlist();
-        //myList.removeFromBack();
+
         
     }
 }
